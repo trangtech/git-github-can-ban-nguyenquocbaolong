@@ -26,6 +26,9 @@ h1 {
 .dk {
     color: green;
 }
+.dk:hover {
+    color: rgb(15, 196, 15);
+}
 span {
     color: red;
 }
@@ -34,4 +37,7 @@ span {
     background-color: green;
     width: 310px;
     height: 30px;
+}
+.dn:hover {
+    background-color: rgb(15, 196, 15);
 }

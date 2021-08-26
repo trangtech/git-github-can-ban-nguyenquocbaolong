@@ -21,8 +21,11 @@ div {
     padding-right: 20px;
 }
 .dn {
-    color: white;
+    color: rgb(236, 232, 232);
     float: right;
+}
+.dn:hover {
+    color: hsl(0, 0%, 100%);
 }
 h1 {
     color: green;
@@ -31,13 +34,20 @@ h1 {
 span {
     color: red;
 }
-.tl th {
+.tl {
+    padding-left: 5px;
+}
+.tl li {
     color: green;
     float: left;
     border: 1px solid black;
-    width: 162px;
+    width: 163px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: block;
+}
+.tl li:hover {
+    background-color: rgb(15, 184, 15);
 }
 legend {
     color: red;
@@ -48,4 +58,15 @@ img {
 }
 p {
     color: green;
+}
+.the:before,
+.the:after {
+    content: "";
+    display: table;
+}
+.the:after {
+    clear: both;
+}
+.the {
+    zoom: 1;
 }
