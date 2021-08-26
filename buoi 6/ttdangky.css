@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: rgb(177, 174, 174);
+    margin-top: 40px;
+    margin-bottom: 110px;
+    border-top: 80px solid rgb(231, 229, 229);
+    border-bottom: 80px solid rgb(231, 229, 229);
+    border-left: 200px solid rgb(231, 229, 229);
+    border-right: 200px solid rgb(231, 229, 229);
+}
+div {
+    border: 5px solid ;
+    background-color: white;
+}
+h1 {
+    color: green;
+}
+.d1 {
+    height: 25px;
+}
+.d2 {
+    height: 25px;
+    width: 270px;
+}
+.d3 {
+    height: 25px;
+    width: 425px;
+}
+span {
+    color: red;
+}
+.tl {
+    color: green;
+}
+.dk {
+    color: white;
+    background-color: green;
+    width: 270px;
+    height: 35px;
+}
+fieldset {
+    padding-bottom: 25px    ;
+}

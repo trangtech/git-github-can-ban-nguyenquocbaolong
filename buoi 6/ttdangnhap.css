@@ -1,12 +1,12 @@
 body {
     text-align: center;
     background-color: rgb(177, 174, 174);
-    margin-top: 75px;
+    margin-top: 65px;
     margin-bottom: 110px;
     border-top: 90px solid rgb(231, 229, 229);
     border-bottom: 90px solid rgb(231, 229, 229);
-    border-left: 200px solid rgb(231, 229, 229);
-    border-right: 200px solid rgb(231, 229, 229);
+    border-left: 400px solid rgb(231, 229, 229);
+    border-right: 400px solid rgb(231, 229, 229);
 }
 div {
     border: 5px solid ;
@@ -15,15 +15,23 @@ div {
 h1 {
     color: green;
 }
+.em {
+    height: 30px;
+    width: 300px;
+}
+.pw {
+    height: 30px;
+    width: 300px;
+}
+.dk {
+    color: green;
+}
 span {
     color: red;
 }
-.tl {
-    color: green;
-}
-.dk {
+.dn {
     color: white;
     background-color: green;
-    width: 190px;
-    height: 35px;
+    width: 310px;
+    height: 30px;
 }
